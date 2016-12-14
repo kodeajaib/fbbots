@@ -1,6 +1,6 @@
 <?php
 // parameters
-$hubVerifyToken = 'testBootIllankFB989879324823423';
+$hubVerifyToken = 'testBootIllankFB989879324823423a';
 $accessToken = "EAADlGz1ZBQZBwBAGVtGjdC7vI7nLQqzgUQmEhicXalofrjoVjjRgbpBNL7QYsDHBNZCpySzj9veZBTvXIJxKI3BJxxvTAw5Lf3qW9HKbUQI9DIvcgVWCFB7SQGmC2uwVrLFtO5ZAZBEi97iPBNZAZC8jtQesxYRPbnitGHsGbSxcWgZDZD";
 // check token at setup
 if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
